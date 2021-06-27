@@ -14,6 +14,10 @@ Then add sudo.
 ```
 usermod -aG sudo your_name
 ```
+Change user.
+```
+su your_name
+```
 Now you can connect with user name.
 ```
 ssh your_name@10.10.10
