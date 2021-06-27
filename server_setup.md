@@ -59,3 +59,41 @@ And, when copying digital ocean dns servername, delete at the and the point(.).
 Tutoral: [Tutorial](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-20-04-de)
 
 From now on your_domain should be replaced width your whole damain: dont forget the (.com) .
+
+```
+sudo mkdir /var/www/your_domain
+sudo chown -R $USER:$USER /var/www/your_domain
+sudo chmod -R 755 /var/www/your_domain
+sudo vim /var/www/your_domain/index.html
+```
+Put this into the index.html:
+```
+<html> <head>
+        <title>Welcome to Your_domain!</title>
+    </head>
+    <body>
+        <h1>Success!  The your_domain virtual host is working!</h1>
+    </body>
+</html>
+```
+Then :wq
+```
+sudo vim /etc/apache2/sites-available/your_domain.conf
+```
+Put this into your_domain.conf:
+```
+<VirtualHost *:80>
+       
+ServerAdmin webmaster@localhost
+    ServerName your_domain
+    ServerAlias www.your_domain
+    DocumentRoot /var/www/your_domain
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+<Directory /var/www/your_domain/>
+Options Indexes FollowSymLinks AllowOverride All
+Require all granted
+</Directory>
+```
