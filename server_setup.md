@@ -50,3 +50,4 @@ Install git.
 sudo apt-get install git-all
 ```
 #### Setup domain
+Here link to godaddy and digital ocean tutoial: [Google](https://medium.com/@seanconrad_25426/connecting-a-godaddy-domain-to-a-digitalocean-droplet-cb1ed5662d58)
