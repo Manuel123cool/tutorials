@@ -97,3 +97,21 @@ Options Indexes FollowSymLinks AllowOverride All
 Require all granted
 </Directory>
 ```
+Then :wq
+
+```
+sudo vim /etc/apache2/apache2.conf
+```
+Put this in the first line:
+```
+ServerName your_domain
+```
+Find this in the appche2.conf.
+```
+<Directory /var/www/>
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+</Directory>
+```
+And allow override, change (AllowOverride None) to (AllowOverride All).
