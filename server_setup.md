@@ -93,8 +93,8 @@ ServerAdmin webmaster@localhost
 </VirtualHost>
 
 <Directory /var/www/your_domain/>
-Options Indexes FollowSymLinks AllowOverride All
-Require all granted
+    Options Indexes FollowSymLinks AllowOverride All
+    Require all granted
 </Directory>
 ```
 Then :wq
