@@ -135,3 +135,35 @@ sudo add-apt-repository ppa:certbot/certbot
 sudo apt install python-certbot-apache
 ```
 Important: Select by redirect, Option 2 (Redirect to https)
+```
+sudo certbot --apache -d your_domain -d www.your_domain
+sudo systemctl status certbot.timer
+sudo certbot renew –dry-run
+```
+Setup ip redirect to domain. Warnig .htaccess is not a file extention, it is a hidden file name.
+So create a raw: .htaccess file.
+```
+sudo vim /var/www/your_domain/.htaccess
+```
+Put this into the file:
+```
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^104\.248\.29\.24$
+RewriteRule ^(.*)$ http://www.your_domain/$1 [L,R=301]
+```
+Line 3 change to your ip address: only replace the numbers.
+
+For safety create a cronjob.
+```
+sudp crontab -e
+```
+Put this into the first line:
+```
+* * */1 * * /usr/bin/certbot renew 1> /dev/null 2> /your/path/crontab_status/re_certbot.err
+```
+then :wq
+```
+sudo mkdir /your/path/crontab_status
+```
+Int this directory, your can check the certbot renew status.
