@@ -173,6 +173,7 @@ Make you permission as low as possible. When apache has to eccess something, add
 directory group and make the appropriate permission.
 ```
 sudo chgrp www-data file_name
+sudo chown your_name file_name
 sudo chmod 740 file_name
 ```
 * 0	None
