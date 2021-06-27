@@ -1,2 +1,1 @@
-
-Test
+#Server setup tutorial
