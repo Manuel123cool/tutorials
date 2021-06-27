@@ -169,7 +169,7 @@ sudo mkdir /your/path/crontab_status
 Int this directory, you can check the certbot renew status.
 
 #### Server permissions
-Make you permission as low as possible. When apache has to eccess somthing, add it to the file or
+Make you permission as low as possible. When apache has to eccess something, add it to the file or
 directory group and make the appropriate permission.
 ```
 sudo chgrp www-date file_name
