@@ -53,6 +53,9 @@ sudo apt-get install git-all
 Here link to godaddy and digital ocean tutorial: [Tutorial](https://medium.com/@seanconrad_25426/connecting-a-godaddy-domain-to-a-digitalocean-droplet-cb1ed5662d58)
 
 Warning: When create A type dns record, use @ and www for the two hostnames, dont type in manually.
+And, when copying digital ocean dns servername, delete at the and the point(.).
 
 #### Setup ssl
 Tutoral: [Tutorial](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-20-04-de)
+
+From now on your_domain should be replaced width your whole damain: dont forget the (.com) .
