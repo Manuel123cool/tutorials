@@ -115,3 +115,23 @@ Find this in the appche2.conf.
 </Directory>
 ```
 And allow override, change (AllowOverride None) to (AllowOverride All).
+```
+sudo a2ensite your_domain.conf
+sudo a2dissite 000-default.conf
+sudo apache2ctl configtest
+```
+
+Output from configtest should be: (Syntax OK), when not, solve errors.
+Now, http://your_domain should show up your confirmation. It has to, so try until it shows up.
+
+Now coppy your code into /var/www/your_domain.
+```
+sudo rm -r /var/www/html
+```
+
+#### Setup certbot
+```
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt install python-certbot-apache
+```
+Important: Select by redirect, Option 2 (Redirect
