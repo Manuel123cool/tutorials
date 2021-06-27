@@ -50,7 +50,7 @@ Install git.
 sudo apt-get install git-all
 ```
 #### Setup domain
-Here link to godaddy and digital ocean tutoial: [Tutorial](https://medium.com/@seanconrad_25426/connecting-a-godaddy-domain-to-a-digitalocean-droplet-cb1ed5662d58)
+Here link to godaddy and digital ocean tutorial: [Tutorial](https://medium.com/@seanconrad_25426/connecting-a-godaddy-domain-to-a-digitalocean-droplet-cb1ed5662d58)
 
 Warning: When create A type dns record, use @ and www for the two hostnames, dont type in manually.
 
