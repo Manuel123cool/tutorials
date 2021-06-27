@@ -156,7 +156,7 @@ Line 3 change to your ip address: only replace the numbers.
 
 For safety create a cronjob.
 ```
-sudp crontab -e
+sudo crontab -e
 ```
 Put this into the first line:
 ```
