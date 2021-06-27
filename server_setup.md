@@ -172,7 +172,7 @@ Int this directory, you can check the certbot renew status.
 Make you permission as low as possible. When apache has to eccess something, add it to the file or
 directory group and make the appropriate permission.
 ```
-sudo chgrp www-date file_name
+sudo chgrp www-data file_name
 sudo chmod 740 file_name
 ```
 * 0	None
@@ -183,3 +183,8 @@ sudo chmod 740 file_name
 * 5	r+x
 * 6	r+w
 * 7	r+w+x
+
+For directories:
+* r = liest files 
+* w = create, delete files
+* x = allow cd 
