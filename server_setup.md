@@ -175,19 +175,11 @@ directory group and make the appropriate permission.
 sudo chgrp www-date file_name
 sudo chmod 740 file_name
 ```
-* 0	Keine
+* 0	None
 * 1	x
 * 2	w
 * 3	w+x
-4	r
-5	r+x
-6	r+w
-7	r+w+x
-|0| None|
-|1| Row 2 Column 2|
-|2| Row 1 Column 2|
-|3| Row 2 Column 2|
-|4| Row 1 Column 2|
-|5| Row 2 Column 2|
-|6| Row 2 Column 2|
-|7| Row 2 Column 2|
+* 4	r
+* 5	r+x
+* 6	r+w
+* 7	r+w+x
