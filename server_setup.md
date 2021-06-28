@@ -160,7 +160,7 @@ sudo crontab -e
 ```
 Put this into the first line:
 ```
-* * */1 * * /usr/bin/certbot renew 1> /dev/null 2> /your/path/crontab_status/re_certbot.err
+0 0 * * * /usr/bin/certbot renew 1> /dev/null 2> /your/path/crontab_status/re_certbot.err
 ```
 then :wq
 ```
