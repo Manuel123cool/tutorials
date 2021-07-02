@@ -50,8 +50,9 @@ UI elements are views. There have modifier. Here I will list them
   * background(View) your can pass a views
   * backgound(RoundedRectangle(cornerRadius: 10))
 #### Text
-
+```
 Text("Text")
+```
 
 Modifier:
 * font(.title) (predefined fonts: fit to the current screensize)
@@ -61,10 +62,15 @@ Modifier:
 * bold() 
 
 #### Image
-
+```
 Image("Test")
+```
 
 Arguments:
 * Image(systemName: "arrow.left")
 Modifier:
+
+#### Button
+```
+Button(action {}, label: {})
 
