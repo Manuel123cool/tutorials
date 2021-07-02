@@ -135,7 +135,6 @@ This uses as much as space as possible, with multible spacers, it shares the spa
 ```
 Color.init(red: 135 / 255, green: 233 / 255, blue: 22 / 255)
 ```
-Color.init(red: 135 / 255, green: 233 / 255, blue: 22 / 255)
 Divide rgb color width 255.
 
 Modifier:
