@@ -49,6 +49,7 @@ UI elements are views. There have modifier. Here I will list them
 * background(Color.blue) sets backgound
   * background(View) your can pass a views
   * backgound(RoundedRectangle(cornerRadius: 10))
+* frame(width: 100, height: 100, allignment: .center) sets frame
 #### Text
 ```
 Text("Text")
@@ -73,5 +74,16 @@ Modifier:
 #### Button
 ```
 Button(action {}, label: {})
+```
 
 Action is what happens, when button is pressed. Label is how it looks.
+
+#### Rectangle
+```
+Rectangle()
+```
+
+Modifier:
+* foregroundColor(Color.white) defines the color
+
+#### Spacer
