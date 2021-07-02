@@ -89,16 +89,20 @@ Modifier:
 * underline(true, Color.red) make line under the txt
 * padding(10) padding width 10 points
   * padding(EdgeInsets(top: 0, leading: 20, buttom: 0, trailing: 20))
+* clipShape(Capsule()) like background with shape
 
 #### Image
 ```
 Image("Test")
 ```
-
+Image text the image name.
 Arguments:
-* Image(systemName: "arrow.left")
+* Image(systemName: "arrow.left") handles as text (same modifier)
 Modifier:
-
+* clipeShape(Cricle()) makes a shape background, works good with padding
+* rezisible() adjusts image to given size
+* aspectRatio(contentMode: .fit) ratio stays same
+  * take hole space and ratio stays same (cuts of image)
 #### Button
 ```
 Button(action {}, label: {})
@@ -129,6 +133,7 @@ Divide rgb color width 255.
 
 Modifier:
 * edgesIgnoringSafeArea(.all) filles button and top fully
+* opacity(0.2) adjusts brightness
 
 #### Divider
 ```
@@ -171,3 +176,14 @@ isOn binds variable to true or false. label function makes the style.
 
 
 Hides entered text. Much is same with TextField. In onCommit function you can get the password with: self.password
+
+#### Label
+```
+Label( title: {}, icon: {})
+```
+same as:
+```
+HStack {
+    Text("Hallo Bello")
+    Image("person")
+}
