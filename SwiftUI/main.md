@@ -116,6 +116,9 @@ Modifier:
 * edgesIgnoringSafeArea(.all) filles button and top fully
 
 #### Divider
+```
+Divider()
+```
 Makes a line. Shows something is divided.
 
 Modifier:
