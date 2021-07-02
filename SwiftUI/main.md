@@ -50,6 +50,9 @@ Like topTriailing (top left).
 ### UI elements
 UI elements are views. There have modifier. Here I will list them
 
+#### GridLayout
+Arranges elements in a grid. 
+
 #### General modifier
 
 * padding() sets space of inner content to outer frame
@@ -101,6 +104,7 @@ Modifier:
 Spacer()
 ```
 This uses as much as space as possible, with multible spacers, it shares the space (each get as much as possible).
+
 #### Color
 ```
 Color.init(red: 135 / 255, green: 233 / 255, blue: 22 / 255)
@@ -110,3 +114,10 @@ Divide rgb color width 255.
 
 Modifier:
 * edgesIgnoringSafeArea(.all) filles button and top fully
+
+#### Divider
+Makes a line. Shows something is divided.
+
+Modifier:
+* background(Color.grenn)
+* frame(width: 100) make divider smaller
