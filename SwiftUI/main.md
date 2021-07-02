@@ -180,9 +180,6 @@ Toggle(isOn: $myState, label: {})
 ```
 isOn binds variable to true or false. label function makes the style.
 
-
-Hides entered text. Much is same with TextField. In onCommit function you can get the password with: self.password
-
 #### Label
 ```
 Label( title: {}, icon: {})
