@@ -51,11 +51,12 @@ Arranges the elements horizontal.
 #### ZStack
 Arranges elements on top of each other. Has more elignment possibilities.
 Like topTriailing (top left).
-### UI elements
-UI elements are views. There have modifier. Here I will list them
 
 #### GridLayout
 Arranges elements in a grid. 
+
+### UI elements
+UI elements are views. There have modifier. Here I will list them
 
 #### General modifier
 
