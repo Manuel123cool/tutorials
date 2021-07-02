@@ -101,8 +101,9 @@ Modifier:
 ```
 Image("Test")
 ```
-Image text the image name.
-Arguments:
+Image argument: the image name.
+
+Modifier:
 * Image(systemName: "arrow.left") handles as text (same modifier)
 Modifier:
 * clipeShape(Cricle()) makes a shape background, works good with padding
