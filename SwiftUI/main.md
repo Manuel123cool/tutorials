@@ -44,6 +44,9 @@ Arranges the elements vertical.
 #### HStack
 Arranges the elements horizontal.
 
+#### ZStack
+Arranges elements on top of each other. Has more elignment possibilities.
+Like topTriailing (top left).
 ### UI elements
 UI elements are views. There have modifier. Here I will list them
 
@@ -94,3 +97,12 @@ Modifier:
 * foregroundColor(Color.white) defines the color
 
 #### Spacer
+```
+Spacer()
+
+#### Color
+Color.init(red: 135 / 255, green: 233 / 255, blue: 22 / 255)
+Divide rgb color width 255.
+
+Modifier:
+* edgesIgnoringSafeArea(.all) filles button and top fully
