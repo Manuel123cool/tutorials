@@ -63,6 +63,8 @@ Arranges elements in a grid.
 * frame(width: 100, height: 100, allignment: .center) sets frame
 * border(Color.black) 
 * layoutPriority(1) chooses wihch elements are definitely shown
+* shadow(color: Color.black, radius: 10, x: 10, y: 10) makes a shadow
+* cornerRadius(10) rounded corners
 #### Text
 ```
 Text("Text")
