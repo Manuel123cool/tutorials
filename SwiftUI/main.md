@@ -101,6 +101,9 @@ Modifier:
 Spacer()
 ```
 #### Color
+```
+Color.init(red: 135 / 255, green: 233 / 255, blue: 22 / 255)
+```
 Color.init(red: 135 / 255, green: 233 / 255, blue: 22 / 255)
 Divide rgb color width 255.
 
