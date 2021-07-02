@@ -79,6 +79,14 @@ Modifier:
 * foregroundColor(Color.white) defines a fontstyle
 * bold() 
 * fontWeight(.light) makes font lighter or bolder
+* italic()
+* lineLimit(1) limit text to certain line length
+  * lineLimit(nil) shows text always
+* multilineTextAlignment(.leading) aligns text
+* baseLineOffset(30) changes baseline verticcal
+* kernig(5.0) makes space between letters
+* textCase(.upperCase) makes text lovercase or uppercase
+* underline(true, Color.red) make line under the txt
 
 #### Image
 ```
