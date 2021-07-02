@@ -65,6 +65,7 @@ Arranges elements in a grid.
 * layoutPriority(1) chooses wihch elements are definitely shown
 * shadow(color: Color.black, radius: 10, x: 10, y: 10) makes a shadow
 * cornerRadius(10) rounded corners
+* stroke(Color.blac
 #### Text
 ```
 Text("Text")
@@ -126,3 +127,10 @@ Makes a line. Shows something is divided.
 Modifier:
 * background(Color.grenn)
 * frame(width: 100) make divider smaller
+
+#### Rounded Rectangle
+```
+RoundedRectangle(cornerRadius: 10)
+```
+Modifier:
+* stroke(Color.black, lineWidth: 2) makes a border
