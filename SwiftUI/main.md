@@ -62,6 +62,8 @@ UI elements are views. There have modifier. Here I will list them
 
 * padding() sets space of inner content to outer frame
   * padding(.trailing) choosing padding only one side
+  * padding(10) padding width 10 points
+  * padding(EdgeInsets(top: 0, leading: 20, buttom: 0, trailing: 20))
 * background(Color.blue) sets backgound
   * background(View) your can pass a views
   * backgound(RoundedRectangle(cornerRadius: 10))
@@ -70,7 +72,7 @@ UI elements are views. There have modifier. Here I will list them
 * layoutPriority(1) chooses wihch elements are definitely shown
 * shadow(color: Color.black, radius: 10, x: 10, y: 10) makes a shadow
 * cornerRadius(10) rounded corners
-* stroke(Color.blac
+* stroke(Color.blac)
 
 #### Text
 ```
@@ -92,8 +94,7 @@ Modifier:
 * kernig(5.0) makes space between letters
 * textCase(.upperCase) makes text lovercase or uppercase
 * underline(true, Color.red) make line under the txt
-* padding(10) padding width 10 points
-  * padding(EdgeInsets(top: 0, leading: 20, buttom: 0, trailing: 20))
+
 * clipShape(Capsule()) like background with shape
 
 #### Image
