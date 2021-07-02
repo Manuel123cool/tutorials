@@ -74,3 +74,4 @@ Modifier:
 ```
 Button(action {}, label: {})
 
+Action is what happens, when button is pressed. Label is how it looks.
