@@ -162,7 +162,7 @@ Modifier:
 ```
 TextField("Placeholder", text: $bindedText, onEditingChanged: { (returnType) in }, onCommit: {})
 ```
-onEditingChanged shows if the user is in the textfield. onCommit shows if user changes the text. onCommit runs if user pressed return.
+onEditingChanged shows if the user is in the textfield. onCommit runs if user pressed return.
 
 Modifier:
 * textFieldStyle(RoundedBorderTextFieldStyle())
