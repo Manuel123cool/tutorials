@@ -1,4 +1,4 @@
-### I am currently learning swiftUI, for now: this are some notes
+### SwiftUI Quick and Dirty
 
 
 #### Everything is a view
@@ -23,6 +23,8 @@ SwiftUI doesnt know how to arrange your view, so there are containers.
 ### Containers
 You can modify the stack: and every child element will inherit these 
 modifier.
+
+These containers can have
 #### VStack
 Arranges the elements vertical.
 
@@ -39,4 +41,5 @@ Text("Text")
 Modifier:
 * font(.title) (predefined fonts: fit to the current screensize)
   * font(.system(syize: 30)) define a size
+  * font(.costum("Arial", size: 30))
 * bold() 
