@@ -100,6 +100,7 @@ Modifier:
 ```
 Spacer()
 ```
+This uses as much as space as possible, with multible spacers, it shares the space (each get as much as possible).
 #### Color
 ```
 Color.init(red: 135 / 255, green: 233 / 255, blue: 22 / 255)
