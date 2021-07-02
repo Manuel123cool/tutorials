@@ -38,4 +38,5 @@ Text("Text")
 
 Modifier:
 * font(.title) (predefined fonts: fit to the current screensize)
+* * font(.system(syize: 30)) define a size
 * bold() 
