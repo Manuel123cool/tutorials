@@ -144,3 +144,13 @@ RoundedRectangle(cornerRadius: 10)
 ```
 Modifier:
 * stroke(Color.black, lineWidth: 2) makes a border
+
+#### Textfield
+```
+TextField("Placeholder", text: $bindedText, onEditingChanged: { (returnType) in }, onCommit: {}
+```
+onEditingChanged shows if the user is in the textfield. onCommit shows if user changes the text. onCommit runs if user pressed return.
+
+Modifier:
+* textFieldStyle(RoundedBorderTextFieldStyle())
+* foregroundColor(.blue) chagens the inserted text to a certain color.
