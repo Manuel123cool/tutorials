@@ -18,15 +18,19 @@ Variables that can be changed by the UI elements, are marked width:
 ```
 @State
 ```
+Body is a computed property, if a @State var changes, it will comput its content again. So the code inside it will be runed again.
+
 SwiftUI doesnt know how to arrange your view, so there are containers.
 
 ### Containers
+Dont get confused: the container use a spacial syntax. Basically, the block after The struct VStack {} is a VStack(content: {}) function argument.
+
 You can modify the stack: and every child element will inherit these 
 modifier.
 
 These containers can have a argument spacing: which defines the space between the cild elements.
 ```
-VStack(spacing: 20)
+VStack(spacing: 20) {}
 ```
 
 There can have the argument: alignment. These align the inner connent:
@@ -35,7 +39,7 @@ There can have the argument: alignment. These align the inner connent:
 * center
 
 ```
-VStack(alignment: .top)
+VStack(alignment: .top) {}
 ```
 
 #### VStack
