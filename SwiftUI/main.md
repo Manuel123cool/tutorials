@@ -56,6 +56,7 @@ UI elements are views. There have modifier. Here I will list them
   * backgound(RoundedRectangle(cornerRadius: 10))
 * frame(width: 100, height: 100, allignment: .center) sets frame
 * border(Color.black) 
+* layoutPriority(1) chooses wihch elements are definitely shown
 #### Text
 ```
 Text("Text")
