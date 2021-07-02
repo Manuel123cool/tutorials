@@ -43,7 +43,7 @@ Arranges the elements horizontal.
 ### UI elements
 UI elements are views. There have modifier. Here I will list them
 
-####General modifier
+#### General modifier
 
 * padding() sets space of inner content to outer frame
 * background(Color.blue) sets backgound
