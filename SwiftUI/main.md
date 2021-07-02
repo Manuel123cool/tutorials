@@ -66,6 +66,7 @@ Arranges elements in a grid.
 * shadow(color: Color.black, radius: 10, x: 10, y: 10) makes a shadow
 * cornerRadius(10) rounded corners
 * stroke(Color.blac
+
 #### Text
 ```
 Text("Text")
@@ -77,6 +78,7 @@ Modifier:
   * font(.costum("Arial", size: 30))
 * foregroundColor(Color.white) defines a fontstyle
 * bold() 
+* fontWeight(.light) makes font lighter or bolder
 
 #### Image
 ```
