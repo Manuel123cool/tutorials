@@ -17,3 +17,24 @@ struct NewView: View {
 Variables that can be changed by the UI elements, are marked width: 
 ```
 @State
+
+SwiftUI doesnt know how to arrange your view, so there are containers.
+
+#### Containers
+
+##### VStack
+Arranges the elements vertical.
+
+##### HStack
+Arranges the elements horizontal.
+
+##### UI elements
+UI elements are views. There have modifier. Here I will list them
+
+##### Text
+```
+Text("Text")
+
+Modifier:
+* font(.title) (predefined fonts: fit to the current screensize)
+* 
