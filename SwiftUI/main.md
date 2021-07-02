@@ -87,6 +87,8 @@ Modifier:
 * kernig(5.0) makes space between letters
 * textCase(.upperCase) makes text lovercase or uppercase
 * underline(true, Color.red) make line under the txt
+* padding(10) padding width 10 points
+  * padding(EdgeInsets(top: 0, leading: 20, buttom: 0, trailing: 20))
 
 #### Image
 ```
@@ -147,10 +149,16 @@ Modifier:
 
 #### Textfield
 ```
-TextField("Placeholder", text: $bindedText, onEditingChanged: { (returnType) in }, onCommit: {}
+TextField("Placeholder", text: $bindedText, onEditingChanged: { (returnType) in }, onCommit: {})
 ```
 onEditingChanged shows if the user is in the textfield. onCommit shows if user changes the text. onCommit runs if user pressed return.
 
 Modifier:
 * textFieldStyle(RoundedBorderTextFieldStyle())
 * foregroundColor(.blue) chagens the inserted text to a certain color.
+
+#### Secure textfield
+```
+SecureField("Placeholder", text: $password, onCommit: {})
+```
+Hides entered text. Much is same with TextField. In onCommit function you can get the password with: self.password
