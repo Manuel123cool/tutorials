@@ -27,6 +27,8 @@ modifier.
 These containers can have a argument spacing: which defines the space between the cild elements.
 ```
 VStack(spacing: 20)
+```
+
 There can have the argument: alignment. These align the inner connent:
 * leading (right side)
 * trailing (left side)
