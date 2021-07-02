@@ -166,7 +166,7 @@ onEditingChanged shows if the user is in the textfield. onCommit runs if user pr
 
 Modifier:
 * textFieldStyle(RoundedBorderTextFieldStyle())
-* foregroundColor(.blue) chagens the inserted text to a certain color.
+* foregroundColor(.blue) changes the inserted text to a certain color.
 
 #### Secure textfield
 ```
