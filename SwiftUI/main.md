@@ -20,19 +20,19 @@ Variables that can be changed by the UI elements, are marked width:
 ```
 SwiftUI doesnt know how to arrange your view, so there are containers.
 
-#### Containers
+### Containers
 You can modify the stack: and every child element will inherit these 
 modifier.
-##### VStack
+#### VStack
 Arranges the elements vertical.
 
-##### HStack
+#### HStack
 Arranges the elements horizontal.
 
-##### UI elements
+### UI elements
 UI elements are views. There have modifier. Here I will list them
 
-##### Text
+#### Text
 
 Text("Text")
 
