@@ -129,7 +129,7 @@ Modifier:
 ```
 Spacer()
 ```
-This uses as much as space as possible, with multible spacers, it shares the space (each get as much as possible).
+This uses as much as space as possible, with multible spacers, it shares the space (each gets as much as possible).
 
 #### Color
 ```
