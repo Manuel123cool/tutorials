@@ -109,7 +109,7 @@ Modifier:
 * clipeShape(Cricle()) makes a shape background, works good with padding
 * rezisible() adjusts image to given size
 * aspectRatio(contentMode: .fit) ratio stays same
-  * take hole space and ratio stays same (cuts of image)
+  * aspectRatio(contentMode: .fill) take hole space and ratio stays same (cuts of image)
 #### Button
 ```
 Button(action {}, label: {})
