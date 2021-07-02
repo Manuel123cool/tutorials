@@ -34,6 +34,10 @@ There can have the argument: alignment. These align the inner connent:
 * trailing (left side)
 * center
 
+```
+VStack(alignment: .top)
+```
+
 #### VStack
 Arranges the elements vertical.
 
@@ -46,10 +50,12 @@ UI elements are views. There have modifier. Here I will list them
 #### General modifier
 
 * padding() sets space of inner content to outer frame
+  * padding(.trailing) choosing padding only one side
 * background(Color.blue) sets backgound
   * background(View) your can pass a views
   * backgound(RoundedRectangle(cornerRadius: 10))
 * frame(width: 100, height: 100, allignment: .center) sets frame
+* border(Color.black) 
 #### Text
 ```
 Text("Text")
