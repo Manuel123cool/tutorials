@@ -13,3 +13,7 @@ struct NewView: View {
     }
 }
 ```
+
+Variables that can be changed by the UI elements, are marked width: 
+```
+@State
