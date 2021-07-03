@@ -224,3 +224,11 @@ List {
     Text("Row two")
 }
 ```
+This makes simple rows.
+You can use it to list array data.
+```
+List(array, id: \.name) { arrayElem in
+    //itarates throw array 
+    // here you can put each row which eccess arrayElem
+}
+
