@@ -55,6 +55,31 @@ Like topTriailing (top left).
 #### GridLayout
 Arranges elements in a grid. 
 
+#### Windows preview
+```
+struct Navigation_Preview: PreviewProvider {
+    struct var previews: some View {
+        WindowView1()
+        WindowView2()
+    }
+}
+```
+
+#### App start view
+```
+import SwiftUI
+
+@main
+struct UITutorialApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView() //this is the start view (replace with your view
+        }
+    }
+}
+
+```
+
 ### UI elements
 UI elements are views. There have modifier. Here I will list them
 
