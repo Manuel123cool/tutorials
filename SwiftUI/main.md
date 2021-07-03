@@ -62,6 +62,7 @@ UI elements are views. There have modifier. Here I will list them
 
 * padding() sets space of inner content to outer frame
   * padding(.trailing) choosing padding only one side
+  * padding(.horizontal, 50) choosing sites and size
   * padding(10) padding width 10 points
   * padding(EdgeInsets(top: 0, leading: 20, buttom: 0, trailing: 20))
 * background(Color.blue) sets backgound
@@ -167,6 +168,8 @@ onEditingChanged shows if the user is in the textfield. onCommit runs if user pr
 Modifier:
 * textFieldStyle(RoundedBorderTextFieldStyle())
 * foregroundColor(.blue) changes the inserted text to a certain color.
+* disableAutocorrection(true)
+* keyboardType(.numberPad)
 
 #### Secure textfield
 ```
