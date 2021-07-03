@@ -260,3 +260,13 @@ List takes each view as one row, you can combined views into container for multi
 Modifier:
 * listRowBackground(View)
   * listRowBackground(Color.green)
+
+#### Navigation
+```
+NavigationView {
+    NavigationLink(destination: DestinationView()) {
+        LinkView()
+    }
+}
+```
+
