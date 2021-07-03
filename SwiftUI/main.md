@@ -227,8 +227,14 @@ List {
 This makes simple rows.
 You can use it to list array data.
 ```
-List(array, id: \.name) { arrayElem in
-    //itarates throw array 
-    // here you can put each row which eccess arrayElem
+List(array, id: \.id) { arrayElem in
+    //itarates throw array of structs
+    // here you can put each row which eccesses arrayElem
 }
+```
+Struct should inherit: Identifiable.
+```
+struct arrayData: Identifiable {
+    var id: Int
+    let data = "data"
 
