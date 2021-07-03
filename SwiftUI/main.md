@@ -83,9 +83,7 @@ View.gesture(
         .onEnded({
             // action when tap ended
         })
-
-
-
+)
 ```
 #### Text
 
