@@ -257,6 +257,8 @@ Section(header: Text("Section 1") {
 ```
 List takes each view as one row, you can combined views into container for multible views into one row.
 
+You can make with navigation: a destination page, for seeing (for example) more details of the row element.
+
 Modifier:
 * listRowBackground(View)
   * listRowBackground(Color.green)
