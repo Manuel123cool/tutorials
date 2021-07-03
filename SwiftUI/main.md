@@ -73,7 +73,8 @@ import SwiftUI
 struct UITutorialApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView() //this is the start view (replace with your view
+            ContentView() //this is the start view 
+            // (replace with your view)
         }
     }
 }
