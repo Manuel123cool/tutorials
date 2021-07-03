@@ -102,6 +102,7 @@ UI elements are views. There have modifier. Here I will list them
 * stroke(Color.blac)
 * scaleEffect(10) scale view by 
 * ignoreSaveArea() fills hole screen 
+* sheet(isPresented: $showSheet, content: { View() }) content is what is shown when clicked, when $showSheet is true.
 
 #### Gesture regognizer
 ```
