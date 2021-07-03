@@ -89,6 +89,12 @@ View.gesture(
 TapGesture can take argument count: how many times the view is clicked until the function runs.
 
 ```
+let longPressGesture = longPressGesture()
+    .onEnded({ _ in
+        name = "long pressed"
+    })
+
+```
 TabGesture(count: 2)
 ```
 
