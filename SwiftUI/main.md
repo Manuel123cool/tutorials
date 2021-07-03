@@ -74,7 +74,8 @@ UI elements are views. There have modifier. Here I will list them
 * shadow(color: Color.black, radius: 10, x: 10, y: 10) makes a shadow
 * cornerRadius(10) rounded corners
 * stroke(Color.blac)
-* scaleEffect(10) scale view by 10
+* scaleEffect(10) scale view by 
+* ignoreSaveArea() fills hole screen 
 
 #### Gesture regognizer
 ```
@@ -273,3 +274,6 @@ NavigationView {
 }
 ```
 NavigationView is the current view. Or this view you get back when returning. NaviationLink specifies destination and style of a link. naviagationTitle makes a title for the current view and a link name to get back from the destination view.
+
+Modifier for NavigationView:
+* accentColor(.black) sets color of get back link
