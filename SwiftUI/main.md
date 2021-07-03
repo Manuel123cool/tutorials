@@ -95,8 +95,7 @@ let longPressGesture = longPressGesture()
     })
 
 ```
-TabGesture(count: 2)
-```
+Function runs when long pressed.
 
 #### Text
 
@@ -216,3 +215,12 @@ HStack {
     Text("Hallo Bello")
     Image("person")
 }
+```
+
+#### Table
+```
+List {
+    Text("Row one")
+    Text("Row two")
+}
+```
