@@ -302,10 +302,13 @@ NavigationView {
 ```
 NavigationView is the current view. Or this view you get back when returning. NaviationLink specifies destination and style of a link. naviagationTitle makes a title for the current view and a link name to get back from the destination view. navigationBarItems add a view into the navigation bar.
 
-navigationBarTitle has can take a second argument: 
+navigationBarTitle can take a second argument: 
 ```
 .navigationBarTitle("Title", displayMode: .large) 
 // .large isnt the only opition
 ```
+
+You can give destination view arguments, for transfering data.
+
 Modifier for NavigationView:
 * accentColor(.black) sets color of get back link
