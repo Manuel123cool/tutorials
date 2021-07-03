@@ -239,7 +239,7 @@ struct arrayData: Identifiable {
     let data = "data"
 }
 ```
-You can delete elements.
+You can add delete capability.
 ```
 onDelete(perform: { indexSet in 
     self.arrayData.remove(atOffsets: indexSet})
@@ -247,4 +247,16 @@ onDelete(perform: { indexSet in
 ```
 Array should be @State, as it can be changed (when added delete), in the body property.
 
+You can add sections.
+```
+Section(header: Text("Section 1") {
+    //Code for drawing rows
+    Text("Row one")
+    Text("Row two")
+}
+```
+List takes each view as one row, you can combined views into container for multible views into one row.
 
+Modifier:
+* listRowBackground(View)
+  * listRowBackground(Color.green)
