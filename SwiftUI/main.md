@@ -102,7 +102,13 @@ UI elements are views. There have modifier. Here I will list them
 * stroke(Color.blac)
 * scaleEffect(10) scale view by 
 * ignoreSaveArea() fills hole screen 
-* sheet(isPresented: $showSheet, content: { View() }) content is what is shown when clicked, when $showSheet is true.
+
+##### Sheet
+```
+sheet(isPresented: $showSheet, content: { View() }) 
+```
+
+Content is what is shown when clicked, when $showSheet is true. You can give you constum view a paramter which is void function type and give it a function which makes showSheet false (to go back) and call this function in the constum view.
 
 #### Gesture regognizer
 ```
