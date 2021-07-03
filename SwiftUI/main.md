@@ -85,6 +85,13 @@ View.gesture(
         })
 )
 ```
+
+TabeGesture can take argument count: how many times the view is clicked until the function runs.
+
+```
+TabGesture(count: 2)
+```
+
 #### Text
 
 Text("Text")
