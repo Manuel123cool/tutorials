@@ -62,7 +62,7 @@ UI elements are views. There have modifier. Here I will list them
 
 * padding() sets space of inner content to outer frame
   * padding(.trailing) choosing padding only one side
-  * padding(.horizontal, 50) choosing sites and size
+  * padding(.horizontal, 50) choosing sides and size
   * padding(10) padding width 10 points
   * padding(EdgeInsets(top: 0, leading: 20, buttom: 0, trailing: 20))
 * background(Color.blue) sets backgound
@@ -74,8 +74,19 @@ UI elements are views. There have modifier. Here I will list them
 * shadow(color: Color.black, radius: 10, x: 10, y: 10) makes a shadow
 * cornerRadius(10) rounded corners
 * stroke(Color.blac)
+* scaleEffect(10) scale view by 10
+
+#### Gesture regognizer
+```
+View.gesture(
+    TapGesture()
+        .onEnded({
+            // action when tap ended
+        })
+
 
 #### Text
+
 ```
 Text("Text")
 ```
