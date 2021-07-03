@@ -235,6 +235,16 @@ List(array, id: \.id) { arrayElem in
 Struct should inherit: Identifiable.
 ```
 struct arrayData: Identifiable {
-    var id: Int
+    var id = UUID()
     let data = "data"
+}
+```
+You can delete elements.
+```
+onDelete(perform: { indexSet in 
+    self.arrayData.remove(atOffsets: indexSet})
+})
+```
+Array should be @State, as it can be changed (when added delete), in the body property.
+
 
