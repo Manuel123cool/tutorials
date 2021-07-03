@@ -269,6 +269,7 @@ NavigationView {
     NavigationLink(destination: DestinationView()) {
         LinkView()
     }
+    .navigationTitle("Title")
 }
 ```
-
+NavigationView is the current view. Or this view you get back when returning. NaviationLink specifies destination and style of a link. naviagationTitle makes a title for the current view and a link name to get back from the destination view.
