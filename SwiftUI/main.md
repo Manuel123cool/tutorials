@@ -271,9 +271,10 @@ NavigationView {
         LinkView()
     }
     .navigationTitle("Title")
+    .navigationBarItems(trailing: View)
 }
 ```
-NavigationView is the current view. Or this view you get back when returning. NaviationLink specifies destination and style of a link. naviagationTitle makes a title for the current view and a link name to get back from the destination view.
+NavigationView is the current view. Or this view you get back when returning. NaviationLink specifies destination and style of a link. naviagationTitle makes a title for the current view and a link name to get back from the destination view. navigationBarItems add a view into the navigation bar.
 
 Modifier for NavigationView:
 * accentColor(.black) sets color of get back link
