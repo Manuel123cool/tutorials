@@ -1,5 +1,5 @@
 ### PHP security collection
-I am not an expert, just somemone who collects security vulnerability!
+I am not an expert, just somemone who collects security vulnerabilities!
 
 #### Genral links
 https://github.com/paragonie/awesome-appsec#php
