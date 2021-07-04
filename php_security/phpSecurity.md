@@ -1,6 +1,8 @@
 ### PHP security collection
 I am not an expert, just somemone how collects security vulnerability!
 
+#### Genral links
+https://github.com/paragonie/awesome-appsec#php
 #### Timing attack
 
 String compare operators return immediately if the length is not the same:
