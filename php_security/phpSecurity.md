@@ -18,3 +18,4 @@ if (hash_equals("Password", $_POST["password"]) {
 }
 ```
 
+[Link on topic](https://blog.ircmaxell.com/2014/11/its-all-about-time.html)
