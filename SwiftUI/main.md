@@ -91,8 +91,8 @@ UI elements are views. There have modifier. Here I will list them
   * padding(.horizontal, 50) choosing sides and size
   * padding(10) padding width 10 points
   * padding(EdgeInsets(top: 0, leading: 20, buttom: 0, trailing: 20))
-* background(Color.blue) sets backgound
-  * background(View) your can pass a views
+* background(Color.blue) sets background
+  * background(View) your can pass a view
   * backgound(RoundedRectangle(cornerRadius: 10))
 * frame(width: 100, height: 100, allignment: .center) sets frame
 * border(Color.black) 
