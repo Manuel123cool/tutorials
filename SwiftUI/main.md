@@ -151,7 +151,7 @@ UI elements are views. There have modifier. The order of the modifier inst unimp
   * shadow(color: Color.black, radius: 10) 
 
 * cornerRadius(10) rounded corners
-* stroke(Color.blac)
+* stroke(Color.black) makes frame border
 * scaleEffect(10) scale view by 
 * ignoreSaveArea() fills hole screen 
 * clipShape(Circle()) only show what is inside the clip shap
