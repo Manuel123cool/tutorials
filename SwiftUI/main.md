@@ -323,8 +323,8 @@ Modifier for NavigationView:
 #### Tabview
 ```
 TabView(selection: .constant(1), content: {
-    Text("Link one")
-    Text("Link two")
+    Text("Tab content 1").tabItem {Text("Tap label 1")}.tag(1)
+    Text("Tab content 2").tabItem {Text("Tap label 2)}.tab(2)
 }
 ```
 Your should make a selection state variable:
