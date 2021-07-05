@@ -1,5 +1,8 @@
 ### SwiftUI: Quick and Dirty
 
+#### Udemy course 
+[SwiftUI course](https://www.udemy.com/course/swiftui-kurs-mit-ios-14-und-swift-5/)
+* costum allert: video 77
 
 #### Everything is a view
 
