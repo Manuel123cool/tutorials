@@ -415,7 +415,9 @@ Button(action: {
 .actionSheet(isPresented: $showingAlert, content: {
     ActionSheet(title: Text("Actions"), message: nil, buttons: 
         [ 
-            .deffault(Text("Button1"))
+            .deffault(Text("Button1")) {
+                Text("Action when press button1")
+            }
             .deffault(Text("Button2"))
             .deffault(Text("Button3"))
         ])
