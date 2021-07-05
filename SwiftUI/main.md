@@ -3,6 +3,7 @@
 #### Udemy course 
 [SwiftUI course](https://www.udemy.com/course/swiftui-kurs-mit-ios-14-und-swift-5/)
 * costum allert: video 77
+* Form: video 81
 
 #### Everything is a view
 
@@ -442,3 +443,15 @@ Button(action: {
             .deffault(Text("Button3"))
         ])
 }
+```
+#### Datepicker
+```
+@State var date = Date()
+
+DatePicker("Datepicker", selection: $date)
+```
+This initializer picks date and time.
+To select only one of them us:
+```Det
+
+To select only one of them us:
