@@ -118,6 +118,10 @@ struct PassedTo: View {
     }
 }
 ```
+If you want to fake bind (to test something) use:
+```
+.constant(true)
+```
 
 #### Getting screen size
 ```
