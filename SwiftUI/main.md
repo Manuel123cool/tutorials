@@ -386,7 +386,7 @@ Button(action: {
 //view
 }
 .alert(isPresented: $showingAlert, content: {
-    Alert(title: test("Achtung"), message: Text("Test message"),
+    Alert(title:Text("Achtung"), message: Text("Test message"),
         dismissButton: .default(Text("Cancel")))
 }
 ```
