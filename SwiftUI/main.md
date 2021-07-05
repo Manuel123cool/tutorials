@@ -319,3 +319,19 @@ You can give destination view arguments, for transfering data.
 
 Modifier for NavigationView:
 * accentColor(.black) sets color of get back link
+
+#### Tabview
+```
+TabView(selection: .constant(1), content: {
+    Text("Link one")
+    Text("Link two")
+}
+```
+Your should make a selection state variable:
+```
+@State var selesction = 0
+```
+For storing the selesction.
+
+
+
