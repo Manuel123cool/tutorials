@@ -455,6 +455,11 @@ To select only one of them us:
 ```
 DatePicker("Datepicker", selection: $date, displayedComponents: .date) //date
 DatePicker("Datepicker", selection: $date, displayedComponents: .hourAndMinute) //time
-
 ```
-To select only one of them us:
+You can have add a range:
+```
+let fromToday = Calender.current.date(byAdding: .minute, value: -1, to: Date())!
+DatePicker("", selection: $date, in: fromToday...) //time
+
+Modifier:
+* .datePickerStyle(GraphicalDatePickerStyle()) makes always on selector
