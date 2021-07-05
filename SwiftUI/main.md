@@ -81,6 +81,22 @@ struct UITutorialApp: App {
 
 ```
 
+#### Reuse or organize code
+```
+struct ReUse: View {
+    var body: some View {
+        VStack {
+            Text("1")
+            Text("2)
+        }
+    }
+}
+//of course in a other body variable
+HStack {
+    ReUse()
+    ReUse()
+}
+
 ### UI elements
 UI elements are views. There have modifier. Here I will list them
 
@@ -333,5 +349,12 @@ Your should make a selection state variable:
 ```
 For storing the selesction.
 
+tag is ther for changing manuelly the content. So if you have a button:
+```
+Button(action: {
+    self.selection = 2
+}, label: {})
+```
+When you press it you get from TabView the conent where tag(2).
 
 
