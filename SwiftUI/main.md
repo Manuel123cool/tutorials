@@ -119,6 +119,12 @@ struct PassedTo: View {
 }
 ```
 
+#### Getting screen size
+```
+let sreenSize = UIScreen.main.bounds
+```
+With width, height you get the sizes.
+
 ### UI elements
 UI elements are views. There have modifier. Here I will list them
 
