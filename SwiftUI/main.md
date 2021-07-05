@@ -474,6 +474,7 @@ Modifier:
 ```
 @State var number = 0.0
 Slider(value: $number, in 1...100, step 1, onEditingChanged: { _ in }) 
+Slider(value: $number) 
 ```
 
 Number formatting: end of video 84 [Udemy Course](#udemy-course-germany)
