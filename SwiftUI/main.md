@@ -151,6 +151,8 @@ UI elements are views. There have modifier. Here I will list them
 * scaleEffect(10) scale view by 
 * ignoreSaveArea() fills hole screen 
 * clipShape(Circle()) only show what is inside the clip shap
+* offset(x: 20, y: 50) offsets view by the amount specified
+* animation(.string()) 
 
 ##### Sheet
 ```
