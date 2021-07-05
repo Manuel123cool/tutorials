@@ -96,6 +96,25 @@ HStack {
     ReUse()
     ReUse()
 }
+```
+
+#### Binding
+If you want to pass a state var to another struct, use @Binding in the inner struct where the state var is passed to. 
+```
+struct IsPassing: View {
+    @State var test = ""
+    var body: some View {
+        PassedTo(test)
+    }
+}
+
+struct PassedTo: View {
+    @Binding var test: String
+    var body: some View {
+        Text(test)
+    }
+}
+```
 
 ### UI elements
 UI elements are views. There have modifier. Here I will list them
