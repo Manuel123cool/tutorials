@@ -150,6 +150,7 @@ UI elements are views. There have modifier. Here I will list them
 * stroke(Color.blac)
 * scaleEffect(10) scale view by 
 * ignoreSaveArea() fills hole screen 
+* clipShape(Circle()) only show what is inside the clip shap
 
 ##### Sheet
 ```
