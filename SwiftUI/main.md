@@ -391,3 +391,14 @@ Button(action: {
 }
 ```
 message can be nil
+If alert is runed it makes showingAlert false.
+
+It exists a nother initializert for Alert.
+```
+Alert(title:Text("Achtung"), message: Text("Test message"),
+    primaryButton .destructive(Text("delete") {
+    //happens when pressing primary button
+    }, secondaryButton:
+        default(Text("test"))
+```
+destructive() makes a delete style
