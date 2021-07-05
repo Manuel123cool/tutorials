@@ -474,4 +474,4 @@ Modifier:
 Slider(value: $number, in 1...100, step 1, onEditingChanged: { _ in }) 
 ```
 
-Number formatting: end of video 84 [Udemy Course](udemy-course-(germany))
+Number formatting: end of video 84 [Udemy Course](#udemy-course-(germany))
