@@ -376,4 +376,18 @@ Button(action: {
 ```
 When you press it you get from TabView the conent where tag(2).
 
+#### Alertbox
+```
+@State var showingAlert = false
 
+Button(action: {
+    showingAlert = true
+}) {
+//view
+}
+.alert(isPresented: $showingAlert, content: {
+    Alert(title: test("Achtung"), message: Text("Test message"),
+        dismissButton: .default(Text("Cancel")))
+}
+```
+message can be nil
