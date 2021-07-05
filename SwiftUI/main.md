@@ -452,6 +452,9 @@ DatePicker("Datepicker", selection: $date)
 ```
 This initializer picks date and time.
 To select only one of them us:
-```Det
+```
+DatePicker("Datepicker", selection: $date, displayedComponents: .date) //date
+DatePicker("Datepicker", selection: $date, displayedComponents: .hourAndMinute) //time
 
+```
 To select only one of them us:
