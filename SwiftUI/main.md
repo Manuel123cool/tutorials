@@ -402,3 +402,21 @@ Alert(title:Text("Achtung"), message: Text("Test message"),
         default(Text("test"))
 ```
 destructive() makes a delete style
+
+#### Action sheet
+```
+@State var showingActionSheet = false
+
+Button(action: {
+    showingActionSheet = true
+}) {
+//view
+}
+.actionSheet(isPresented: $showingAlert, content: {
+    ActionSheet(title: Text("Actions"), message: nil, buttons: 
+        [ 
+            .deffault(Text("Button1"))
+            .deffault(Text("Button2"))
+            .deffault(Text("Button3"))
+        ])
+}
