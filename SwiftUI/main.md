@@ -261,6 +261,10 @@ Modifier:
 ```
 RoundedRectangle(cornerRadius: 10)
 ```
+Arguments:
+```
+RoundedRectangle(cornerRadius: 10, style: .continuous)
+```
 Modifier:
 * stroke(Color.black, lineWidth: 2) makes a border
 
