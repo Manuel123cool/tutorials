@@ -1,9 +1,10 @@
 ### SwiftUI: Quick and Dirty
 
-#### Udemy course 
+#### Udemy course (germany)
 [SwiftUI course](https://www.udemy.com/course/swiftui-kurs-mit-ios-14-und-swift-5/)
 * costum allert: video 77
 * Form: video 81
+* Date formatting: video 83
 
 #### Everything is a view
 
@@ -465,3 +466,11 @@ DatePicker("", selection: $date, in: fromToday...) //time
 To format the date: watch video 83 (link in the tutorial beginning)
 Modifier:
 * .datePickerStyle(GraphicalDatePickerStyle()) makes always on selector
+
+#### Slider
+```
+@State var number = 0.0
+Slider(value: $number, in 1...100, step 1, onEditingChanged: { _ in }) 
+```
+
+Number formatting: end of video 84 
