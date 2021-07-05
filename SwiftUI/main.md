@@ -460,6 +460,8 @@ You can have add a range:
 ```
 let fromToday = Calender.current.date(byAdding: .minute, value: -1, to: Date())!
 DatePicker("", selection: $date, in: fromToday...) //time
+```
 
+To format the date: watch video 83 (link in the tutorial beginning)
 Modifier:
 * .datePickerStyle(GraphicalDatePickerStyle()) makes always on selector
