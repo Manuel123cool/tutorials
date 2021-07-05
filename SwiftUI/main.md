@@ -464,6 +464,7 @@ DatePicker("", selection: $date, in: fromToday...) //time
 ```
 
 To format the date: watch video 83 (link in the tutorial beginning)
+Udemy course (germany)
 Modifier:
 * .datePickerStyle(GraphicalDatePickerStyle()) makes always on selector
 
@@ -473,4 +474,4 @@ Modifier:
 Slider(value: $number, in 1...100, step 1, onEditingChanged: { _ in }) 
 ```
 
-Number formatting: end of video 84 
+Number formatting: end of video 84 [Udemy Course](udemy-course-(germany))
