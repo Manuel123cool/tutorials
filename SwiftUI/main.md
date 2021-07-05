@@ -148,6 +148,8 @@ UI elements are views. There have modifier. The order of the modifier inst unimp
 * border(Color.black) 
 * layoutPriority(1) chooses wihch elements are definitely shown
 * shadow(color: Color.black, radius: 10, x: 10, y: 10) makes a shadow
+  * shadow(color: Color.black, radius: 10) 
+
 * cornerRadius(10) rounded corners
 * stroke(Color.blac)
 * scaleEffect(10) scale view by 
