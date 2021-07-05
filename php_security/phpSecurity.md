@@ -21,3 +21,19 @@ if (hash_equals("Password", $_POST["password"]) {
 ```
 
 [Link on topic](https://blog.ircmaxell.com/2014/11/its-all-about-time.html)
+
+#### Insufficient Randomness
+
+Dont use mt_rand() . Use one of the following:
+
+* RandomLib
+* random_bytes($length) (PHP 7, or available in PHP 5 via random_compat)
+* Raw bytes read from /dev/urandom
+* mcrypt_create_iv($length, MCRYPT_DEV_URANDOM);
+* openssl_random_pseudo_bytes($length);
+
+```
+$token = bin2hex(openssl_random_pseudo_bytes($length));
+```
+
+[Link on topic](https://paragonie.com/blog/2015/04/secure-authentication-php-with-long-term-persistence)
