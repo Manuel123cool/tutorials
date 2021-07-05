@@ -464,7 +464,7 @@ DatePicker("", selection: $date, in: fromToday...) //time
 ```
 
 To format the date: watch video 83 (link in the tutorial beginning)
-Udemy course (germany)
+Udemy course (germany) [Udemy Course](#udemy-course-germany)
 Modifier:
 * .datePickerStyle(GraphicalDatePickerStyle()) makes always on selector
 
