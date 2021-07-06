@@ -506,6 +506,16 @@ Picker(selection: $selectedItem, label: Text(""), content: {
     Text("1").tag(1)
 })
 ```
-Value in the tag(1) modifier will be stored in $selectedItem
+Value in the tag(1) modifier will be stored in $selectedItem. <br>
+With array:
+```
+let coutries = ["Germany, "USA"]
+Picker(selection: $selectedItem, label: Text(""), content: {
+    ForEach(0..<countries.count) {
+        Text(countries[$0])
+    }
+})
+```
+$selectedItem will be filled with the index.
 
 
