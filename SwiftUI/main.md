@@ -161,7 +161,18 @@ struct ViewContent: View {
 ```
 
 To have a class instance inside our view struct which is changeable inside body var: use @ObservedObject. The class has to implement ObservableObject protocol.
-The var of the class, which could be changed inside the body var, has to have the observer @Published.
+The var of the class, which will be changed inside the body var, has to have the observer @Published (only if the body var should be recomputed on every change of this var).
+
+If you want to decide manually when body is shoud be recomputed, use:
+```
+let objectWillChange = ObservableObjectPublisher()
+
+var myProperty = "" {
+    willSet {
+        objectWillChange.send()
+    }
+}
+```
 
 ### UI elements
 UI elements are views. There have modifier. The order of the modifier inst unimportant. Here I will list them
