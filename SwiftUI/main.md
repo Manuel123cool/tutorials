@@ -148,7 +148,7 @@ Text("Test").saturation(saturat ? 0.0 : 0.5)
 #### State object
 ```
 class StateObject: ObservableObject {
-    var myProperty = "Hello"
+    @Published var myProperty = "Hello"
 }
 
 struct ViewContent: View {
@@ -161,6 +161,7 @@ struct ViewContent: View {
 ```
 
 To have a class instance inside our view struct which is changeable inside body var: use @ObservedObject. The class has to implement ObservableObject protocol.
+The var of the class, which could be changed inside the body var, has to have the observer @Published.
 
 ### UI elements
 UI elements are views. There have modifier. The order of the modifier inst unimportant. Here I will list them
