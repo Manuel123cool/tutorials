@@ -172,7 +172,7 @@ UI elements are views. There have modifier. The order of the modifier inst unimp
 * offset(x: 20, y: 50) offsets view by the amount specified
 * animation(.string()) add after effects (they will then be animated)
   * animation(.linear()) there are multible animation arguments
-  * for multible animation: from buttom to top, start at the animation call and ends at the next animation call (or end of modifieres)
+  * for multible animations: it effects effects from buttom to top, starts at the animation call and ends at the next animation call (or end of modifieres) 
 * overlay(Text("Text")) The view to layer in front of this view
 * rotationEffect(.degree(-90)) rotates view
 * opacity(0.5) 0 to 1, 1 = 100% 
