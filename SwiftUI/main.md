@@ -169,7 +169,9 @@ let objectWillChange = ObservableObjectPublisher()
 
 var myProperty = "" {
     willSet {
-        objectWillChange.send()
+        if condition {
+            objectWillChange.send() //sends to view struct: recompute your body var
+        }
     }
 }
 ```
