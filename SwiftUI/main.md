@@ -175,6 +175,7 @@ var myProperty = "" {
     }
 }
 ```
+There exists an @EnvironmentObject.
 
 ### UI elements
 UI elements are views. There have modifier. The order of the modifier inst unimportant. Here I will list them
