@@ -132,6 +132,12 @@ let sreenSize = UIScreen.main.bounds
 With width, height you get the sizes.
 
 #### Animation
+```
+withAninamtion(.easeIn(duration: 2.0)) {
+    animation.toggle()
+}
+```
+Animates explicitly the affects that are effected by the variables inside the closure.
 
 ### UI elements
 UI elements are views. There have modifier. The order of the modifier inst unimportant. Here I will list them
