@@ -131,12 +131,7 @@ let sreenSize = UIScreen.main.bounds
 ```
 With width, height you get the sizes.
 
-#### Animation
-```
 
-```
-
-#### Animation 
 ### UI elements
 UI elements are views. There have modifier. The order of the modifier inst unimportant. Here I will list them
 
@@ -164,7 +159,8 @@ UI elements are views. There have modifier. The order of the modifier inst unimp
 * ignoreSaveArea() fills hole screen 
 * clipShape(Circle()) only show what is inside the clip shap
 * offset(x: 20, y: 50) offsets view by the amount specified
-* animation(.string()) for now I dont know how its work
+* animation(.string()) add after effects (they will then be animated)
+  * animation(.linear()) there are multible animation arguments
 * overlay(Text("Text")) The view to layer in front of this view
 * rotationEffect(.degree(-90)) rotates view
 * opacity(0.5) 0 to 1, 1 = 100% 
