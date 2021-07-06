@@ -518,4 +518,5 @@ Picker(selection: $selectedItem, label: Text(""), content: {
 ```
 $selectedItem will be filled with the index.
 
-
+Modifier:
+* pickerStyle(SegmentedPickerStyle())
