@@ -145,6 +145,23 @@ Animates explicitly the affects that are effected by the variables inside the cl
 Text("Test").saturation(saturat ? 0.0 : 0.5)
 ```
 
+#### State object
+```
+class StateObject: ObservableObject {
+    var myProperty = "Hello"
+}
+
+struct ViewContent: View {
+    @ObservedObject private var stateObject = StateObject()
+    
+    var body: some View {
+        self.stateObject.myProperty = "Hello 123"
+    }
+}
+```
+
+To have a changable class instance inside our view struct which is changeable inside body var: use @ObservedObject. The class have to implement ObservableObject protocol.
+
 ### UI elements
 UI elements are views. There have modifier. The order of the modifier inst unimportant. Here I will list them
 
