@@ -3,6 +3,9 @@ I am not an expert, just somemone who collects security vulnerabilities!
 
 #### Genral links
 https://github.com/paragonie/awesome-appsec#php
+
+https://www.udemy.com/course/php-security/
+
 #### Timing attack
 
 String compare operators return immediately if the length is not the same:
@@ -37,3 +40,20 @@ $token = bin2hex(openssl_random_pseudo_bytes($length));
 ```
 
 [Link on topic](https://paragonie.com/blog/2015/04/secure-authentication-php-with-long-term-persistence)
+
+#### SQL injection
+```
+$userQuery = $con->query("SELECT * FROM users WHERE email = '$email' ");
+```
+
+If user input is:
+''; DROP TABLE posts; --
+This will drop the table posts.
+
+To avoid this, use prepare statement.
+```
+$userQuery = $con->prepare("SELECT * FROM users WHERE email = :email");
+$userQuery->execute([
+    'email' => $email
+]);
+```
