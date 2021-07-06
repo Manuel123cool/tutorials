@@ -1,4 +1,4 @@
-### SwiftUI: Quick and Dirty
+### SwiftUI: Cheat Sheet
 
 #### Udemy course (germany)
 [SwiftUI course](https://www.udemy.com/course/swiftui-kurs-mit-ios-14-und-swift-5/)
