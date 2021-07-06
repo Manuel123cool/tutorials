@@ -481,3 +481,20 @@ Number formatting: end of video 84 [Udemy Course](#udemy-course-germany)
 
 Modifier:
 * accentColor(.orange) makes color of the slider it self
+
+#### Stepper
+```
+Stepper("Stepper", value: $stepperValuje)
+```
+Simple stepper.
+```
+Stepper("Stepper") {
+    //pressed +
+} onDecrement: {
+    //pressed -
+} onEditingChanged: { (bool) in 
+    //when one of the button was pressed
+} 
+```
+
+
