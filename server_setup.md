@@ -1,5 +1,5 @@
 ### Server setup tutorial (Apache)
-Here are tips for godaddy and digitaocean [PHP security](php_security/phpSecurity.md)
+Here are tips for godaddy and digitaocean [domain setup](#setup-domain)
 
 To connect to your server type root@your_ip (Warnig, when first connect, there has to be root)
 
