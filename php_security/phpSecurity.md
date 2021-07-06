@@ -57,3 +57,4 @@ $userQuery->execute([
     'email' => $email
 ]);
 ```
+[PDO tutorial](https://phpdelusions.net/pdo)
