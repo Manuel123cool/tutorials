@@ -111,7 +111,7 @@ If you want to pass a state var to another struct, use @Binding in the inner str
 struct IsPassing: View {
     @State var test = ""
     var body: some View {
-        PassedTo(test)
+        PassedTo($test)
     }
 }
 
