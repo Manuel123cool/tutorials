@@ -137,7 +137,11 @@ withAninamtion(.easeIn(duration: 2.0)) {
     animation.toggle()
 }
 ```
-Animates explicitly the affects that are effected by the variables inside the closure.
+Animates explicitly the affects that are effected by the variables inside the closure. To toggle a value in an affect, use ternary operator:
+```
+@State saturat = false 
+Text("Test").saturation(saturat ? 0.0 : 0.5)
+```
 
 ### UI elements
 UI elements are views. There have modifier. The order of the modifier inst unimportant. Here I will list them
