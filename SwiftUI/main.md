@@ -25,6 +25,8 @@ Variables that can be changed by the UI elements, are marked width:
 ```
 Body is a computed property, if a @State var changes, it will comput its content again. So the code inside it will be runed again.
 
+Its best practice to make @State a private var (because its only available in its struct). @State varibles can only be value types (no class).
+
 SwiftUI doesnt know how to arrange your view, so there are containers.
 
 ### Containers
