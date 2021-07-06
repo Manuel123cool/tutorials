@@ -495,6 +495,17 @@ Stepper("Stepper") {
 } onEditingChanged: { (bool) in 
     //when one of the button was pressed
 } 
+
+Stepper("Stepper", value: $stepperValuje, in: 1...5)
 ```
+
+#### Picker
+```
+Picker(selection: $selectedItem, label: Text(""), content: {
+    Text("1").tag(1)
+    Text("1").tag(1)
+})
+```
+Value in the tag(1) modifier will be stored in $selectedItem
 
 
