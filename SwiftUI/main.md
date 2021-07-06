@@ -153,12 +153,19 @@ UI elements are views. There have modifier. The order of the modifier inst unimp
 * cornerRadius(10) rounded corners
 * stroke(Color.black) makes frame border (use when shape)
   * stroke(Color.black, lineWidth: 4)
-* scaleEffect(10) scale view by 
+* scaleEffect(10) scale view by specified number
+  * scaleEffect(x: 1, y: 5) scales in directions
 * ignoreSaveArea() fills hole screen 
 * clipShape(Circle()) only show what is inside the clip shap
 * offset(x: 20, y: 50) offsets view by the amount specified
-* animation(.string()) for not I dont know how its work
+* animation(.string()) for now I dont know how its work
 * overlay(Text("Text")) The view to layer in front of this view
+* rotationEffect(.degree(-90)) rotates view
+* opacity(0.5) 0 to 1, 1 = 100% 
+* plendMode(.multiply) for compositing a view with overlapping content
+* colorMultiply(.blue) mixes color with view
+* saturation(0.3) black / white
+* contrast(0.6)
 
 ##### Sheet
 ```
