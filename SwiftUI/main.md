@@ -145,18 +145,20 @@ UI elements are views. There have modifier. The order of the modifier inst unimp
   * background(View) your can pass a view
   * backgound(RoundedRectangle(cornerRadius: 10))
 * frame(width: 100, height: 100, allignment: .center) sets frame
-* border(Color.black) 
+* border(Color.black) used on views
 * layoutPriority(1) chooses wihch elements are definitely shown
 * shadow(color: Color.black, radius: 10, x: 10, y: 10) makes a shadow
   * shadow(color: Color.black, radius: 10) 
 
 * cornerRadius(10) rounded corners
-* stroke(Color.black) makes frame border
+* stroke(Color.black) makes frame border (use when shape)
+  * stroke(Color.black, lineWidth: 4)
 * scaleEffect(10) scale view by 
 * ignoreSaveArea() fills hole screen 
 * clipShape(Circle()) only show what is inside the clip shap
 * offset(x: 20, y: 50) offsets view by the amount specified
 * animation(.string()) for not I dont know how its work
+* overlay(Text("Text")) The view to layer in front of this view
 
 ##### Sheet
 ```
