@@ -520,3 +520,16 @@ $selectedItem will be filled with the index.
 
 Modifier:
 * pickerStyle(SegmentedPickerStyle())
+
+#### Scroll view
+```
+ScrollView() {
+    //A lot of vertical views
+}
+ScrollView(.horizontal, showsIndicators: false) {
+    //A lot of horizontal views
+}
+```
+showsIndicators can be true or false (defalut = true).
+
+
