@@ -175,6 +175,7 @@ UI elements are views. There have modifier. The order of the modifier inst unimp
 * colorMultiply(.blue) mixes color with view
 * saturation(0.3) black / white
 * contrast(0.6)
+* onAppear {} when view appears, the code in the closure will be started
 
 ##### Sheet
 ```
@@ -207,7 +208,6 @@ Function runs when long pressed.
 #### Text
 
 Text("Text")
-
 
 Modifier:
 * font(.title) (predefined fonts: fit to the current screensize)
