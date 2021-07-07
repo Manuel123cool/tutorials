@@ -251,7 +251,7 @@ Text("Text")
 
 Modifier:
 * font(.title) (predefined fonts: fit to the current screensize)
-  * font(.system(syize: 30)) defines a size
+  * font(.system(size: 30)) defines a size
   * font(.costum("Arial", size: 30))
 * foregroundColor(Color.white) defines a fontstyle
 * bold() 
