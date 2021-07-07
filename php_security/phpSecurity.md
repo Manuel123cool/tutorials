@@ -66,7 +66,7 @@ display_errors=Off ;hides possible data leaks
 ```
 
 #### Cross-site scripting (XSS)
-XSS is an injection attack. If you have some type of form, that uploads data and try to show this data in the html code, you can insert javascript. For example: you can commit a comment and you html side will show this comment, you can insert into the comment javscript: which will, when shown, be ecexuted. You could insert this "harmless" code:
+XSS is an injection attack. If you have some type of form, that uploads data and try to show this data as html code, you can insert javascript. For example: you can commit a comment and you show this comment as html, you can insert into the comment javscript: which will, when inserted, be ecexuted. You could insert this "harmless" code:
 ```
 <script>
 window.alert("Hello i am inserted")
