@@ -58,3 +58,8 @@ $userQuery->execute([
 ]);
 ```
 [PDO tutorial](https://phpdelusions.net/pdo)
+
+#### PHP ini
+
+```
+display_errors=Off ;hides possible data leaks
