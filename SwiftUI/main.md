@@ -55,6 +55,9 @@ Arranges the elements vertical.
 #### HStack
 Arranges the elements horizontal.
 
+#### Group
+Use one modifier for multible views.
+
 #### ZStack
 Arranges elements on top of each other. Has more elignment possibilities.
 Like topTriailing (top left).
