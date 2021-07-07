@@ -186,7 +186,7 @@ UI elements are views. There have modifier. The order of the modifier inst unimp
   * padding(.trailing) choosing padding only one side
   * padding(.horizontal, 50) choosing sides and size
   * padding(10) padding width 10 points
-  * padding(EdgeInsets(top: 0, leading: 20, buttom: 0, trailing: 20))
+  * padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
 * background(Color.blue) sets background
   * background(View) your can pass a view
   * backgound(RoundedRectangle(cornerRadius: 10))
