@@ -245,8 +245,9 @@ let longPressGesture = longPressGesture()
 Function runs when long pressed.
 
 #### Text
-
+```
 Text("Text")
+```
 
 Modifier:
 * font(.title) (predefined fonts: fit to the current screensize)
