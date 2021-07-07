@@ -282,7 +282,7 @@ Modifier:
   * aspectRatio(contentMode: .fill) take hole space and ratio stays same (cuts of image)
 #### Button
 ```
-Button(action {}, label: {})
+Button(action: {}, label: {})
 ```
 
 Action is what happens, when button is pressed. Label is how it looks.
