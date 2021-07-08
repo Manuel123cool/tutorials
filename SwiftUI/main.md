@@ -384,7 +384,9 @@ You can use it to list array data.
 List(array, id: \.id) { arrayElem in
     //itarates throw array of structs
     // here you can put each row which eccesses arrayElem
-}
+}.onDelete(perform: { indexSet in 
+    self.arrayData.remove(atOffsets: indexSet) // adds delete capabilitie
+})
 ```
 Struct should inherit: Identifiable.
 ```
@@ -393,12 +395,7 @@ struct arrayData: Identifiable {
     let data = "data"
 }
 ```
-You can add delete capability.
-```
-TableRowView.onDelete(perform: { indexSet in 
-    self.arrayData.remove(atOffsets: indexSet)
-})
-```
+
 Array should be @State, as it can be changed (when added delete), in the body property.
 
 You can add sections.
