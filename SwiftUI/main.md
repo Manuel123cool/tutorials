@@ -395,6 +395,13 @@ struct arrayData: Identifiable {
     let data = "data"
 }
 ```
+You can delete capabilitie:
+```
+ForEach(data, id: \.id) { dataElem in
+    //you views
+}.onDelete(perform: { indexSet in
+    self.data.remove(atOffsets: indexSet)
+})
 
 Array should be @State, as it can be changed (when added delete), in the body property.
 
