@@ -395,9 +395,7 @@ struct arrayData: Identifiable {
 ```
 You can add delete capability.
 ```
-List(array, id: \.id) { arrayElem in
-    //Table entrie
-}.onDelete(perform: { indexSet in 
+TableRowView.onDelete(perform: { indexSet in 
     self.arrayData.remove(atOffsets: indexSet)
 })
 ```
