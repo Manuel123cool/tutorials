@@ -395,7 +395,9 @@ struct arrayData: Identifiable {
 ```
 You can add delete capability.
 ```
-onDelete(perform: { indexSet in 
+List(array, id: \.id) { arrayElem in
+    //Table entrie
+}.onDelete(perform: { indexSet in 
     self.arrayData.remove(atOffsets: indexSet})
 })
 ```
