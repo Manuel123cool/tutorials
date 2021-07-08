@@ -72,3 +72,10 @@ XSS is an injection attack. If you have some type of form, that uploads data and
 window.alert("Hello i am inserted")
 </script>
 ```
+
+When insert text with javascript use instead of innerHTML, textContent. When echo in php fetch the echo content out of htmlspecialchars($_POST["body"]).
+```
+echo htmlspecialchars($_POST["body"]);
+```
+
+When insert text with javascript use instead of innerHTML, textContent.
