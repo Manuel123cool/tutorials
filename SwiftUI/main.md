@@ -398,7 +398,7 @@ You can add delete capability.
 List(array, id: \.id) { arrayElem in
     //Table entrie
 }.onDelete(perform: { indexSet in 
-    self.arrayData.remove(atOffsets: indexSet})
+    self.arrayData.remove(atOffsets: indexSet)
 })
 ```
 Array should be @State, as it can be changed (when added delete), in the body property.
