@@ -218,6 +218,7 @@ UI elements are views. There have modifier. The order of the modifier inst unimp
 * saturation(0.3) black / white
 * contrast(0.6)
 * onAppear {} when view appears, the code in the closure will be started
+* sheet(isPresented: True, content: {}) presents a swip down view
 
 ##### Sheet
 ```
