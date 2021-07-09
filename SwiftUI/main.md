@@ -402,6 +402,7 @@ ForEach(data, id: \.id) { dataElem in
 }.onDelete(perform: { indexSet in
     self.data.remove(atOffsets: indexSet)
 })
+```
 
 Array should be @State, as it can be changed (when added delete), in the body property.
 
@@ -422,6 +423,7 @@ Modifier:
   * listRowBackground(Color.green)
 
 #### Navigation
+
 ```
 NavigationView {
     NavigationLink(destination: DestinationView()) {
