@@ -423,6 +423,7 @@ You can make with navigation: a destination page, for seeing (for example) more 
 Modifier:
 * listRowBackground(View)
   * listRowBackground(Color.green)
+* ListStyle(PlainListStyle()) defines list style
 
 #### Navigation
 
