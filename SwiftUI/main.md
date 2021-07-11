@@ -129,7 +129,12 @@ If you want to fake bind (to test something) use:
 ```
 .constant(true)
 ```
-
+You can have a binding parameter:
+```
+init(amount: Binding<Double>) {
+    self._amount = amount 
+}
+```
 #### Getting screen size
 ```
 let sreenSize = UIScreen.main.bounds
