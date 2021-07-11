@@ -614,4 +614,4 @@ showsIndicators can be true or false (defalut = true).
 #### Empty view
 ```
 EmptyView() 
-
+```
