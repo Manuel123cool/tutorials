@@ -86,3 +86,8 @@ echo htmlspecialchars($_POST["body"]);
 ```
 
 When insert text with javascript use instead of innerHTML, textContent.
+
+#### Password hashing
+Dont use md5 hashing. It is easily crackable.
+```
+md5($_POST["password"]) //dont do this
