@@ -91,3 +91,9 @@ When insert text with javascript use instead of innerHTML, textContent.
 Dont use md5 hashing. It is easily crackable.
 ```
 md5($_POST["password"]) //dont do this
+```
+Use password_hash($password).
+```
+password_hash($password, PASSWORD_DEFAULT) // this hashes the password
+```
+[Password hash manual](https://www.php.net/manual/de/function.password-hash.php)
