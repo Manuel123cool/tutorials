@@ -225,6 +225,7 @@ UI elements are views. There have modifier. The order of the modifier inst unimp
 * onAppear {} when view appears, the code in the closure will be started
 * onDisappear {} when view disappears, the code in the closure will be started
 * sheet(isPresented: True, content: {}) presents a swip down view
+* onChange(of: name) { newValue in } runs every time a state in the view changes (name = state)
 
 ##### Sheet
 ```
