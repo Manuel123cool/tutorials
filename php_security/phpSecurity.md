@@ -96,7 +96,7 @@ Use password_hash($password).
 ```
 password_hash($password, PASSWORD_DEFAULT) // this hashes the password
 ```
-[Password hash manual](https://www.php.net/manual/de/function.password-hash.php)
+[Password hash manual](https://www.php.net/manual/de/function.password-hash.php) <br>
 Use password_verify to verify the password.
 ```
 $result = password_verify($password, $hash);
