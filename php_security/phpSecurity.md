@@ -101,3 +101,8 @@ Use password_verify to verify the password.
 ```
 $result = password_verify($password, $hash);
 ```
+#### Hiding directories
+To hide directories create in the a .htacess file, in the directorie and then it cant be eccessed.
+```
+Option -Indexes
+```
