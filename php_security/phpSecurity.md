@@ -111,3 +111,5 @@ Options -Indexes
 setcookie("token", $tokenCookie, NULL, "/", NULL, TRUE, TRUE);
 ```
 The last true sets the cookie to http only. Makes it not eccessable from javascript.
+
+#### Cross-Site Request Forgery (CSRG)
