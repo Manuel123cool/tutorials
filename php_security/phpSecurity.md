@@ -106,3 +106,8 @@ To hide directories create in the a .htacess file, in the directorie and then it
 ```
 Options -Indexes
 ```
+#### Http only cookie
+```
+setcookie("token", $tokenCookie, NULL, "/", NULL, TRUE, TRUE);
+```
+The last true sets the cookie to http only. Makes it not eccessable from javascript.
