@@ -113,4 +113,4 @@ setcookie("token", $tokenCookie, NULL, "/", NULL, TRUE, TRUE);
 The last true sets the cookie to http only. Makes it not eccessable from javascript.
 
 #### Cross-Site Request Forgery (CSRG)
-I didnt understand CSRG, because its attack where you bascially open a not protected public php file to perform a action. It should be clear to protect you php files from random eccess therby enabling actions. With handshake between you browser and server, with authorisation-methods such as: Cookies, Sessions, JWTs.
+I didnt understand CSRG, because its attack where you basically open a not protected public php file to perform a action. It should be clear to protect you php files from random eccess therby enabling actions, with a handshake between your browser and server, with authorisation-methods such as: Cookies, Sessions, JWTs.
