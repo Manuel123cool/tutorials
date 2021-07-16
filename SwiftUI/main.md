@@ -255,6 +255,11 @@ let longPressGesture = longPressGesture()
 ```
 Function runs when long pressed.
 
+For short tape gesture, use:
+```
+View.onTapGesture {}
+```
+
 #### Text
 ```
 Text("Text")
