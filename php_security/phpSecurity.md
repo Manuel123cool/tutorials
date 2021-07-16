@@ -113,3 +113,4 @@ setcookie("token", $tokenCookie, NULL, "/", NULL, TRUE, TRUE);
 The last true sets the cookie to http only. Makes it not eccessable from javascript.
 
 #### Cross-Site Request Forgery (CSRG)
+CSRG is bascically a attack where you include the victims php code and eccess it functionality (which is not secured with password/IP or something different), for example a delete function, a mysql connection or session_start which loads the session variables.
