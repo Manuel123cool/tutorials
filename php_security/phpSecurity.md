@@ -63,8 +63,18 @@ $userQuery->execute([
 
 ```
 display_errors=Off ;hides possible data leaks
+
+log_errors=On ;this two lines log all errors in given file
+error_log=/var/log/httpd/php_scripts_error.log
+
+file_uploads=Off ;if file_uploads not neaded, disalow it
+
+file_uploads=On ; if needed, set max size
+; user can only upload upto 1MB via php
+upload_max_filesize=1M
 ```
 
+[php.ini and more](https://www.cyberciti.biz/tips/php-security-best-practices-tutorial.html)
 #### Cross-site scripting (XSS)
 XSS is an injection attack. If you have some type of form, that uploads data and try to show this data as html code, you can insert javascript. For example: you can commit a comment and you show this comment as html, you can insert into the comment javscript: which will, when inserted, be ecexuted. You could insert this "harmless" code:
 ```
