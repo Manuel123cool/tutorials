@@ -83,7 +83,7 @@ sql.safe_mode=On ; if turned on: mysql_connect() and mysql_pconnect()
 
 post_max_size=1K ; sets max porst request
 
-max_execution_time =  30 ; sets limits
+max_execution_time =  30 ; sets limits in seconds
 max_input_time = 30
 memory_limit = 40M
 ```
