@@ -71,6 +71,8 @@ file_uploads=Off ;if file_uploads not neaded, disalow it
 
 file_uploads=On ; if needed, set max size
 ; user can only upload upto 1MB via php
+
+expose_php=Off ;stop leaking php version
 upload_max_filesize=1M
 ```
 
