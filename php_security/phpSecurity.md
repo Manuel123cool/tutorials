@@ -71,9 +71,21 @@ file_uploads=Off ;if file_uploads not neaded, disalow it
 
 file_uploads=On ; if needed, set max size
 ; user can only upload upto 1MB via php
+upload_max_filesize=1M
 
 expose_php=Off ;stop leaking php version
-upload_max_filesize=1M
+
+allow_url_fopen=Off ; with that reading file functions cant read urls
+allow_url_include=Off
+
+sql.safe_mode=On ; if turned on: mysql_connect() and mysql_pconnect() 
+; ignore any arguments passed to them
+
+post_max_size=1K ; sets max porst request
+
+max_execution_time =  30 ; sets limits
+max_input_time = 30
+memory_limit = 40M
 ```
 
 [php.ini and more](https://www.cyberciti.biz/tips/php-security-best-practices-tutorial.html)
