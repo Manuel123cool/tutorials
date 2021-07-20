@@ -1,5 +1,8 @@
 ### Css: Cheat Sheet
 
+```
+```
+
 #### Reset
 ```
 * {                                                                             
@@ -17,3 +20,10 @@
   line-height: 1.7; /* space between text lines
   color: #777; /* text color */                                                                            
 ```
+
+#### Size types
+```
+  height: 95vh; /* sets height to 95 percent of site height */
+```
+
+
