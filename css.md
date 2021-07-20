@@ -26,4 +26,8 @@
   height: 95vh; /* sets height to 95 percent of site height */
 ```
 
-
+#### Background
+```
+    background-image: url(../img/hero.jpg); /* loads background image
+    background-size: cover; /* sets size, here reizise to fill container
+```
