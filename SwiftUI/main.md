@@ -41,8 +41,8 @@ VStack(spacing: 20) {}
 ```
 
 There can have the argument: alignment. These align the inner connent:
-* leading (right side)
-* trailing (left side)
+* leading (left side)
+* trailing (right side)
 * center
 
 ```
