@@ -134,7 +134,7 @@ sudo rm -r /var/www/html
 #### Setup certbot
 ```
 sudo add-apt-repository ppa:certbot/certbot
-sudo apt install python-certbot-apache
+sudo apt install python3-certbot-apache
 ```
 Important: Select by redirect, Option 2 (Redirect to https)
 ```
